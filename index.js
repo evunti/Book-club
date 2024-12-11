@@ -1,3 +1,7 @@
+const myLibrary = [];
+
+function newBook(title, author) {}
+
 const bookOne = {
   name: "I'm Glad My Mom Died",
   author: "Jennette Mcurdy",
@@ -18,3 +22,5 @@ const bookFive = {
   name: "Persuasion",
   author: "Jane Austen",
 };
+
+function addBookToLib() {}
