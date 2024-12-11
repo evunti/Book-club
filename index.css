@@ -83,6 +83,26 @@ button a {
   text-decoration: none;
 }
 
+form {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+#insctrutions-container {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 100px auto;
+}
+ol {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: fit-content;
+}
+
 @media only screen and (max-width: 800px) {
   nav {
     padding: 5px;
